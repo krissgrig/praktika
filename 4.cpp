@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip> // для форматирования таблицы
+#include <iomanip> // РґР»СЏ С„РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёСЏ С‚Р°Р±Р»РёС†С‹
 using namespace std;
 
 int main() {
@@ -8,7 +8,7 @@ int main() {
     const int litter_interval = 4;
     const int litter_count = 5;
 
-    cout << "Пары\tПриплод за год\n";
+    cout << "РџР°СЂС‹\tРџСЂРёРїР»РѕРґ Р·Р° РіРѕРґ\n";
     cout << "-----------------------\n";
 
     for (int pairs = 1; pairs <= 20; pairs++) {
